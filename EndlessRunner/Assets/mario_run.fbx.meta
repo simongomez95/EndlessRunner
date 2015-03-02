@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: 7bef9d11b786cd3418052e746a59e9ea
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mario_skin:be_head01
+    100004: Mario_skin:be_l_hand01
+    100006: Mario_skin:be_l_hand01 1
+    100008: Mario_skin:be_l_toe01
+    100010: Mario_skin:be_l_toe01 1
+    100012: Mario_skin:bn_hip
+    100014: Mario_skin:bn_l_ankle01
+    100016: Mario_skin:bn_l_ankle01 1
+    100018: Mario_skin:bn_l_ball01
+    100020: Mario_skin:bn_l_ball01 1
+    100022: Mario_skin:bn_l_elbow01
+    100024: Mario_skin:bn_l_elbow01 1
+    100026: Mario_skin:bn_l_knee01
+    100028: Mario_skin:bn_l_knee01 1
+    100030: Mario_skin:bn_l_shoulder01
+    100032: Mario_skin:bn_l_shoulder02
+    100034: Mario_skin:bn_l_tight01
+    100036: Mario_skin:bn_l_tight02
+    100038: Mario_skin:bn_l_wrist01
+    100040: Mario_skin:bn_l_wrist01 1
+    100042: Mario_skin:bn_neck01
+    100044: Mario_skin:bn_spineA01
+    100046: Mario_skin:bn_spineB01
+    100048: Mario_skin:bn_spineC01
+    100050: Mario_skin:globalMove01
+    100052: Mario_skin:joints01
+    100054: Mario_skin:Mario:Mesh
+    100056: Mario_skin:model01
+    400000: //RootNode
+    400002: Mario_skin:be_head01
+    400004: Mario_skin:be_l_hand01
+    400006: Mario_skin:be_l_hand01 1
+    400008: Mario_skin:be_l_toe01
+    400010: Mario_skin:be_l_toe01 1
+    400012: Mario_skin:bn_hip
+    400014: Mario_skin:bn_l_ankle01
+    400016: Mario_skin:bn_l_ankle01 1
+    400018: Mario_skin:bn_l_ball01
+    400020: Mario_skin:bn_l_ball01 1
+    400022: Mario_skin:bn_l_elbow01
+    400024: Mario_skin:bn_l_elbow01 1
+    400026: Mario_skin:bn_l_knee01
+    400028: Mario_skin:bn_l_knee01 1
+    400030: Mario_skin:bn_l_shoulder01
+    400032: Mario_skin:bn_l_shoulder02
+    400034: Mario_skin:bn_l_tight01
+    400036: Mario_skin:bn_l_tight02
+    400038: Mario_skin:bn_l_wrist01
+    400040: Mario_skin:bn_l_wrist01 1
+    400042: Mario_skin:bn_neck01
+    400044: Mario_skin:bn_spineA01
+    400046: Mario_skin:bn_spineB01
+    400048: Mario_skin:bn_spineC01
+    400050: Mario_skin:globalMove01
+    400052: Mario_skin:joints01
+    400054: Mario_skin:Mario:Mesh
+    400056: Mario_skin:model01
+    4300000: Mario_skin:Mario:Mesh
+    7400000: Run
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Mario_skin:Mario:Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mario_skin:globalMove01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight01/Mario_skin:bn_l_knee01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight01/Mario_skin:bn_l_knee01/Mario_skin:bn_l_ankle01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight01/Mario_skin:bn_l_knee01/Mario_skin:bn_l_ankle01/Mario_skin:bn_l_ball01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight01/Mario_skin:bn_l_knee01/Mario_skin:bn_l_ankle01/Mario_skin:bn_l_ball01/Mario_skin:be_l_toe01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight02
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight02/Mario_skin:bn_l_knee01
+          1
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight02/Mario_skin:bn_l_knee01
+          1/Mario_skin:bn_l_ankle01 1
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight02/Mario_skin:bn_l_knee01
+          1/Mario_skin:bn_l_ankle01 1/Mario_skin:bn_l_ball01 1
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_l_tight02/Mario_skin:bn_l_knee01
+          1/Mario_skin:bn_l_ankle01 1/Mario_skin:bn_l_ball01 1/Mario_skin:be_l_toe01
+          1
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_l_shoulder01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_l_shoulder01/Mario_skin:bn_l_elbow01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_l_shoulder01/Mario_skin:bn_l_elbow01/Mario_skin:bn_l_wrist01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_l_shoulder01/Mario_skin:bn_l_elbow01/Mario_skin:bn_l_wrist01/Mario_skin:be_l_hand01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_l_shoulder02
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_l_shoulder02/Mario_skin:bn_l_elbow01
+          1
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_l_shoulder02/Mario_skin:bn_l_elbow01
+          1/Mario_skin:bn_l_wrist01 1
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_l_shoulder02/Mario_skin:bn_l_elbow01
+          1/Mario_skin:bn_l_wrist01 1/Mario_skin:be_l_hand01 1
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_neck01
+        weight: 1
+      - path: Mario_skin:globalMove01/Mario_skin:joints01/Mario_skin:bn_hip/Mario_skin:bn_spineA01/Mario_skin:bn_spineB01/Mario_skin:bn_spineC01/Mario_skin:bn_neck01/Mario_skin:be_head01
+        weight: 1
+      - path: Mario_skin:model01
+        weight: 1
+      - path: Mario_skin:model01/Mario_skin:Mario:Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Mario_skin:joints01
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_tight02
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_knee01 1
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_ankle01 1
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_spineB01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_spineC01
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_neck01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_shoulder01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_elbow01
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_wrist01
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_ball01 1
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_elbow01 1
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_wrist01 1
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_shoulder02
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_tight01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_knee01
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_ankle01
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mario_skin:bn_l_ball01
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: mario_run(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:globalMove01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:joints01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_hip
+      position: {x: -0, y: .290632933, z: .0233312435}
+      rotation: {x: .0703425109, y: -.0639575794, z: .0045194542, w: .995460153}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_tight01
+      position: {x: -.0986445025, y: -.00450614281, z: .000489906757}
+      rotation: {x: -.466144353, y: .587647915, z: -.42336157, w: .508079112}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_knee01
+      position: {x: .125676826, y: 3.19928368e-08, z: -3.33066921e-17}
+      rotation: {x: .923989534, y: .382417738, z: 1.62783217e-10, w: -6.73721148e-11}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_ankle01
+      position: {x: .0869494528, y: -.00564616639, z: -8.41344563e-11}
+      rotation: {x: -.452025384, y: -.300054371, z: .46922338, w: .696756661}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_ball01
+      position: {x: .136764675, y: -2.95166469e-08, z: -1.07690923e-09}
+      rotation: {x: .610847056, y: .576764882, z: .372381419, w: -.394385934}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:be_l_toe01
+      position: {x: .108564653, y: 8.14779966e-10, z: -4.44089216e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_tight02
+      position: {x: .0986445025, y: -.00450614281, z: .000489906757}
+      rotation: {x: .107573487, y: .743290424, z: .0860455483, w: .65463239}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_knee01 1
+      position: {x: -.125676826, y: -3.19928368e-08, z: 2.22044608e-17}
+      rotation: {x: .930875003, y: .365337968, z: -3.61344586e-17, w: -5.15977531e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_ankle01 1
+      position: {x: -.0869494528, y: .00564616639, z: -1.11022304e-17}
+      rotation: {x: -.524970472, y: -.130194873, z: .205857486, w: .815523148}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_ball01 1
+      position: {x: -.136764675, y: 2.85351867e-08, z: 1.52015045e-09}
+      rotation: {x: .707897246, y: .452410221, z: .292092234, w: -.457043469}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:be_l_toe01 1
+      position: {x: -.108564653, y: 8.41079817e-10, z: 1.07719245e-09}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_spineA01
+      position: {x: -0, y: .03158601, z: -.000524043397}
+      rotation: {x: .492319614, y: -.507564187, z: -.492319614, w: .507564187}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_spineB01
+      position: {x: -.0915424824, y: 1.43548378e-17, z: -1.01632572e-17}
+      rotation: {x: -1.94982326e-16, y: -3.92167917e-17, z: .0276564434, w: .999617517}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_spineC01
+      position: {x: -.0950068235, y: -1.4502288e-16, z: -1.16981619e-17}
+      rotation: {x: -.167921886, y: -.00727032823, z: .0118417814, w: .985702395}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_shoulder01
+      position: {x: -.0281596761, y: -.0109527102, z: .113892712}
+      rotation: {x: -.381739855, y: .675002515, z: .591006219, w: .222166434}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_elbow01
+      position: {x: -.109912038, y: -.00229292177, z: -.00110512262}
+      rotation: {x: -.00702538574, y: .478469551, z: .0374244116, w: .877278149}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_wrist01
+      position: {x: -.0896999761, y: .000157944611, z: -.000998754054}
+      rotation: {x: -.0294128899, y: .0307566226, z: .101833247, w: .993890822}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:be_l_hand01
+      position: {x: -.070172891, y: .000135379465, z: .000150151885}
+      rotation: {x: .000618430553, y: -.0261655152, z: .0236206353, w: .999378324}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_shoulder02
+      position: {x: -.0281605422, y: -.0109526804, z: -.113892496}
+      rotation: {x: .500124872, y: -.109029464, z: -.532198846, w: .674353123}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_elbow01 1
+      position: {x: .109912276, y: .00229503238, z: .00110505964}
+      rotation: {x: -.00277847238, y: .189221904, z: .041850809, w: .981038153}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_l_wrist01 1
+      position: {x: .089699693, y: -.000157008268, z: .000998726813}
+      rotation: {x: -.025140943, y: -.0832283273, z: .0181162246, w: .99604857}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:be_l_hand01 1
+      position: {x: .0701733455, y: -.00013986796, z: -.000150131134}
+      rotation: {x: .000618430553, y: -.0261655152, z: .0236206353, w: .999378324}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:bn_neck01
+      position: {x: -.0755119547, y: .00116423506, z: -6.58493935e-17}
+      rotation: {x: .990914106, y: -.102436088, z: -.00610278966, w: -.0869418606}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:be_head01
+      position: {x: -.203852013, y: 2.22044608e-17, z: 2.26321198e-17}
+      rotation: {x: .4422234, y: -.551759422, z: .4422234, w: .551759422}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:model01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario_skin:Mario:Mesh
+      position: {x: -.0108393561, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
