@@ -1,0 +1,2 @@
+This was my absolute first try making a game in Unity and my first time using git, the project is a mess of unused assets and super unoptimized code, plus, it's not even the finished game.
+So yeah, don't try to understand this. Just keeping it as a piece of history.

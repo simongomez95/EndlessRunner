@@ -42,7 +42,7 @@ namespace UnitySampleAssets._2D
             anim.SetBool("Ground", grounded);
 
             // Set the vertical animation
-            anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
+            anim.SetFloat("vSpeed", GetComponent<Rigidbody2D>().velocity.y);
 
 			if (grounded)
 				doubleJump = false;
@@ -75,7 +75,7 @@ namespace UnitySampleAssets._2D
                 anim.SetFloat("Speed", Mathf.Abs(move));
 
                 // Move the character
-                rigidbody2D.velocity = new Vector2(move*maxSpeed, rigidbody2D.velocity.y);
+                GetComponent<Rigidbody2D>().velocity = new Vector2(move*maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
 
                 // If the input is moving the player right and the player is facing left...
                 if (move > 0 && !facingRight)
@@ -92,8 +92,8 @@ namespace UnitySampleAssets._2D
                 // Add a vertical force to the player.
                 //grounded = false;
                 anim.SetBool("Ground", false);
-				rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0);
-                rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+				GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, 0);
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce));
 				if(!grounded)
 					doubleJump = true;
             }
